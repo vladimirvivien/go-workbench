@@ -1,0 +1,7 @@
+{
+    "go.buildOnSave": "package",
+    "go.lintTool": "golint",
+    "go.vetOnSave": "package",
+    "go.formatOnSave": true,
+    "go.formatTool": "goimports"
+}

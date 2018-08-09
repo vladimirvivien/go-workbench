@@ -1,0 +1,14 @@
+syntax = "proto3";
+package protobuf;
+
+message GreetRequest{
+    string name = 1;
+}
+
+message GreetResponse {
+    string message = 1;
+}
+
+service Greeter {
+    rpc Greet(GreetRequest) returns (GreetResponse){}
+}
